@@ -4,6 +4,6 @@ default:
 	@echo "Nothing to do!"
 
 node:
-	docker build -t $(NAMESPACE)/bitrun-node:4.1 -f ./node.dockerfile .
+	docker build -t $(NAMESPACE)/bitrun-node:4.1 -f ./node-4.1.dockerfile .
 
 all: node
